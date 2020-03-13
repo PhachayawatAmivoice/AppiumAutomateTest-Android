@@ -24,6 +24,23 @@ public class AndroidAppium {
     Appium Tutorial (2019 Update) Step by Step Appium Automation
     https://www.swtestacademy.com/appium-tutorial/
 
+    or
+
+    on Appium Desktop
+    1. start appium sever
+    2. new session
+    3. set Capabilities
+
+    {
+  "platformName": "Android",
+  "platformVersion": "5.1.1",
+  "deviceName": "GenyMotion v5.1.1",
+  "app": "/Users/phachayawat/Desktop/AndroidProject/ACSS-AndroidAudioRecorder/app/build/outputs/apk/debug/app-debug.apk",
+  "noReset": true,
+  "appPackage": "com.amivoicethai.amivoicerecorder",
+  "allowTestPackages": true
+}
+
 
      */
 
